@@ -4,6 +4,7 @@ export default {
     './index.html',
     './src/**/*.{vue,js,ts,jsx,tsx}',
   ],
+  darkMode: false,
   theme: {
     extend: {
       fontFamily: {
@@ -11,5 +12,10 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: ['wireframe'],
+  },
 }

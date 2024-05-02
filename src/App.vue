@@ -51,7 +51,7 @@ function handleReset() {
 </script>
 
 <template>
-  <main class="font-nunito min-h-screen bg-base-200 p-8 space-y-6">
+  <main class="font-nunito min-h-screen p-8 space-y-6 mx-auto container">
     <h1
       class="text-4xl text-center font-bold"
     >
